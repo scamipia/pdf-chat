@@ -1,2 +1,17 @@
 .env
 venv/
+
+# Google Drive credentials
+credentials.json
+token.json
+*.json
+!package.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+data/

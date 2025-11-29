@@ -1,0 +1,27 @@
+# --- Servidor backend ---
+fastapi==0.115.0
+uvicorn==0.30.0
+python-multipart==0.0.9   # Subida de archivos y formularios
+
+# --- LangChain core y comunidad ---
+langchain==0.2.1
+langchain-community==0.2.1
+langchain-core==0.2.1
+langchain-text-splitters==0.2.1
+langdetect==1.0.9
+
+# --- Vector store ---
+chromadb==0.4.18
+
+# --- Carga y procesamiento de documentos ---
+pypdf==4.2.0
+docx2txt==0.8
+
+# --- Embeddings gratuitos ---
+sentence-transformers==2.7.0
+
+# --- Modelos locales (Gemma, Mistral, etc.) ---
+ollama==0.1.6  # Interfaz Python para Ollama (ejecuta Gemma:2b localmente)
+
+# --- Utilidades ---
+python-decouple==3.8
